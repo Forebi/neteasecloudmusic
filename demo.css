@@ -189,6 +189,7 @@ body{
     border-top: 1px solid rgb(225, 225, 225);
     position: relative;
     background: rgb(246, 246, 246);
+    display: flex;
 }
 .foot>*:nth-child(n+1){
     display: flex;
@@ -251,4 +252,103 @@ body{
 .foot>ul:nth-of-type(1)>li:nth-child(2){
     width: 34px;
     height: 34px;
+}
+.foot .foot_center{
+    width: 1087px;
+    height: 100%;
+    line-height: 50px;
+    font-size: 6px;
+    color: rgb(78, 78, 78);
+}
+.foot_center .music_timeline{
+    display: flex;
+    align-items: center;
+}
+.music_timeline .music_timeline_line{
+    height: 4px;
+    width: 860px;
+    margin: 0 15px;
+    background: rgb(194, 194, 194);
+    border-radius: 4px;
+}
+.music_timeline_line .line_now{
+    width: 53%;
+    height: 100%;
+    background: rgb(102, 183, 255);
+}
+.music_timeline_line .line_dict{
+    height: 14px;
+    width: 14px;
+    border: 1px solid rgb(198, 198, 198);
+    background: white;
+    padding: 4px;
+    border-radius: 14px;
+    position: relative;
+    left: 53%;
+    top: -9px;
+    cursor: pointer;
+}
+.music_timeline_line .line_dict>div{
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgb(102, 183, 255);
+}
+.music_timeline_line .line_dict:hover{
+    box-shadow: 0 0 6px #999;
+}
+.foot_center .music_voice{
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+}
+.music_voice .music_voice_line{
+    width: 96px;
+    height: 4px;
+    background: rgb(230, 230, 230);
+    margin-left: 12px;
+}
+.music_voice .music_voice_line:hover .line_dict{
+    display: block;
+}
+.music_voice_line .line_now{
+    width: 53%;
+    height: 100%;
+    background: rgb(102, 183, 255);
+}
+.music_voice_line .line_dict{
+    height: 14px;
+    width: 14px;
+    border: 1px solid rgb(198, 198, 198);
+    background: white;
+    padding: 4px;
+    border-radius: 14px;
+    position: relative;
+    left: 51%;
+    top: -9px;
+    cursor: pointer;
+    display: none;
+}
+.music_voice_line .line_dict>div{
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgb(102, 183, 255);
+}
+.foot .foot_right{
+    font-size: 18px;
+}
+.foot .foot_right>li{
+    padding-right: 15px;
+    width: 20px;
+    box-sizing: content-box;
+}
+.foot .foot_right>li:nth-child(1){
+    padding-left: 12px;
+}
+.foot .foot_right>li:nth-child(2){
+    width: 35px;
+}
+.foot .foot_right>li:nth-child(3){
+    width: 30px;
 }

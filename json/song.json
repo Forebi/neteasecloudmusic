@@ -1,0 +1,52 @@
+{"song":[
+    {
+        "name":"Wonder",
+        "singer":"Shawn Mends",
+        "url":"img/song/1.jpg"
+    },
+    {
+        "name":"Savage Love(Laxed - Siren Beat)",
+        "singer":"Jawsh 685/Jason Derulo/BTS",
+        "url":"img/song/2.jpg"
+    },
+    {
+        "name":"Wild Life",
+        "singer":"OneRepublic",
+        "url":"img/song/3.jpg"
+    },
+    {
+        "name":"无人知晓",
+        "singer":"田馥甄",
+        "url":"img/song/4.jpg"
+    },
+    {
+        "name":"存入爱",
+        "singer":"黎明",
+        "url":"img/song/5.jpg"
+    },
+    {
+        "name":"万国觉醒",
+        "singer":"G.E.M邓紫棋",
+        "url":"img/song/6.jpg"
+    },
+    {
+        "name":"是你想成为的大人吗",
+        "singer":"尤长靖",
+        "url":"img/song/7.jpg"
+    },
+    {
+        "name":"Holy",
+        "singer":"Justin Bieber/Chance the Rapper",
+        "url":"img/song/8.jpg"
+    },
+    {
+        "name":"我们的光",
+        "singer":"于毅",
+        "url":"img/song/9.jpg"
+    },
+    {
+        "name":"betty(Live from the 2020 Academy of Country Music Awards)",
+        "singer":"Talor Swift",
+        "url":"img/song/10.jpg"
+    }
+]}
